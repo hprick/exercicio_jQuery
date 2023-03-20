@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Dancing Script', cursive;
+}
+
+header {
+    background-color: green;
+    padding: 16px;
+    justify-content: center;
+    display: flex;
+    border-bottom: 10px solid white;
+    color: white;
+}
+
+form {
+    background-color: green;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    padding: 15px 0;
+}
+
+li, ul {
+    justify-content: center;
+    text-align: center;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    
+}
+
+input, button {
+    padding: 10px;
+}
+
+button {
+    cursor: pointer;
+    background-color: rgb(253, 253, 253);
+    margin: 10px;
+}
+
+#botao-cancelar {
+    background-color: rgb(209, 36, 27);
+    color: white;
+}
+
